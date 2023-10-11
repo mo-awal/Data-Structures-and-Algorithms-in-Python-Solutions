@@ -1,9 +1,6 @@
 # R-1.2
 def is_even(k):
     """Return True if k is even"""
-    # return not k % 2
-    # q, r = divmod(k, 2)
-    # return True if not r else False
     return True if int(str(k)[-1]) in {0, 2, 4, 6, 8} else False
 
 if __name__ == '__main__':
