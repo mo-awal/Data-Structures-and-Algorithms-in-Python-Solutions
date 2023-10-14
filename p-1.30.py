@@ -8,8 +8,8 @@ def repeat_divide(n):
         count += 1
     return count
 
+# A recursive solution
 def repeat_divide_rec(n):
-    """A recursive solution"""
     if n < 2:
         return 0
     else:
